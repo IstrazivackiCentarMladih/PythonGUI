@@ -1,0 +1,30 @@
+MainWindow {
+    color: #FFFFFF;
+    background-color: #33373B;
+}
+
+QDialog {
+    color: #FFFFFF;
+    background-color: #33373B;
+}
+
+QTableWidget::item {
+    height: 50px;
+    color: #33373B;
+}
+
+QTableWidget::item:selected {
+   background-color: #2ABf9E;
+}
+   
+QLabel {
+    color: #FFFFFF;
+    background-color: #33373B;
+    qproperty-alignment: AlignCenter;
+}
+   
+QPushButton {
+    background-color: #2ABf9E;
+    padding: 20px;
+    font-size: 18px;
+}
